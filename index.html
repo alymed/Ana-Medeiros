@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Medeiros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../script/script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom in" data-aos-duration="1000">
+                <a href="#home"><span>Ana Medeiros</span></a>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a
+                        href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a
+                        href="#projects">Projects</a></div>
+                <!-- <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Blog</a></div> -->
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a
+                        href="#contact">Contact Me</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <!-- <a href="#blog">Blog</a> -->
+                <a href="#contact">Contact Me</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="fade-right" data-aos-duration="2000">
+                <img src="../img/me.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hello I'm <span>Ana</span></h1>
+                <div class="typewriter" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">I'm a
+                    <span></span>
+                </div>
+                <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Computer Engineering and
+                    Multimedia student with a keen interest in software, web and mobile development, seeking
+                    opportunities to apply academic knowledge and develop practical skills. Proactive, curious and able
+                    to learn new tools easily.</p>
+                <div class="social-links" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                    <a href="https://www.youtube.com/@AlyMedeiros"><i class="fab fa-youtube"></i></a>
+                    <a href="https://github.com/alymed"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ana-medeiros-a868821ba/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_.its.aly/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://open.spotify.com/user/214wwbtr2thgz2ooccm5kr5ta?si=f5856243358c448f"><i
+                            class="fab fa-spotify"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <a href="../doc/cv_en.pdf" download class="download-btn">
+                        <button>Download CV</button>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <h2 data-aos="fade-up" data-aos-duration="1000">About Me</h2>
+
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="about-intro">
+                        <p>A dedicated Computer Engineering and Multimedia student with a passion
+                            for transforming ideas into digital reality. My journey in technology
+                            began with curiosity and has evolved into a deep commitment to creating
+                            meaningful, user-centered solutions. I believe in the power of clean code,
+                            thoughtful design, and continuous learning. Whether I'm developing a web
+                            application, creating multimedia content, or writing compelling narratives,
+                            I approach each project with creativity, precision, and a user-first mindset.</p>
+                    </div>
+
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>Informatics and Multimedia Engineering <br>
+                                    <span class="highlight">Lisbon School of Engineering</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Other Passions</h4>
+                                <p>Creative writing, filmmaking, music, and crochet<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-visual" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="skills-preview">
+                        <div class="skill-category">
+                            <h4><i class="fas fa-laptop-code"></i> Development</h4>
+                            <div class="skill-tags">
+                                <span>JavaScript</span>
+                                <span>Java</span>
+                                <span>Kotlin</span>
+                                <span>C# / C++</span>
+                                <span>Python</span>
+                                <span>HTML / CSS</span>
+                                <span>SQL</span>
+                                <span>PHP</span>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4><i class="fas fa-paint-brush"></i> Design & Multimedia</h4>
+                            <div class="skill-tags">
+                                <span>Figma</span>
+                                <span>UI/UX</span>
+                                <span>Video Editing</span>
+                                <span>3D Modeling</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4><i class="fas fa-plus"></i> Other</h4>
+                            <div class="skill-tags">
+                                <span>Jetpack Compose</span>
+                                <span>Android Studio</span>
+                                <span>Git</span>
+                                <span>Firebase</span>
+                                <span>Portuguese</span>
+                                <span>English</span>
+                                <span>Spanish</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Curiosity Level</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects-container">
+            <h2 data-aos="fade-up" data-aos-duration="1000">Projects</h2>
+
+            <div class="projects-grid">
+
+
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="project-status status-wip">In Progress</div>
+                    <div class="project-image">
+                        <img src="../img/gestolingo.jpg" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">GestoLingo: Interactive Application for Portuguese Sign Language
+                            Alphabet Recognition</h3>
+                        <p class="project-description">
+                            A mobile application for learning gestures of the Portuguese Sign Language (PSL) alphabet.
+                            The system allows users to guess words by performing the gestures corresponding to the
+                            letters
+                            of the PSL alphabet. The player must guess the word before exhausting all attempts and the
+                            time limit.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Mediapipe</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#" class="project-link secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                    <div class="project-image">
+                        <img src="../img/artchive.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Artchive: Artistic Portfolio System</h3>
+                        <p class="project-description">
+                            The Artchive platform was designed to support amateur photographers, videographers, and
+                            musicians
+                            in creating and sharing their artistic work in a simple, accessible, and organized way. It
+                            is a
+                            digital portfolio management system that allows users to create personalized profiles and
+                            share multimedia
+                            content, such as images, videos, and audio tracks, publicly or privately. The main objective
+                            of the system
+                            is to offer a functional and intuitive portal for emerging artists, responding to the
+                            specific needs of
+                            multimedia content creators.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="../img/tastehub.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TasteHub: A Food Experience</h3>
+                        <p class="project-description">
+                            TasteHub is an app focused on sharing and discovering food recipes, offering an interactive
+                            and personalized
+                            experience for culinary enthusiasts. With advanced recipe search, users can filter results
+                            based on a variety
+                            of criteria, making it easy to find the perfect recipe for any occasion.
+                            The app adopts a dynamic social mode, where users can follow other cooks' profiles, comment
+                            on recipes, share
+                            creations and interact through weekly themed challenges.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">Android Studio</span>
+                            <span class="tech-tag">Figma</span>
+                        </div>
+                        <div class="project-links">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="../img/blackjack.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Web Blackjack</h3>
+                        <p class="project-description">
+                            A motion estimation and classification algorithm for integration into an interactive
+                            graphical
+                            application. The aim is to create a graphic animation of a simple object, through the
+                            estimation
+                            and classification of hand movements recorded in a video sequence.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#" class="project-link primary">
+                                <i class="fas fa-play"></i>
+                                Play Game
+                            </a> -->
+                            <a href="#" class="project-link secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="../img/tastehub.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Motion Estimation and Classification</h3>
+                        <p class="project-description">
+                            A motion estimation and classification algorithm for integration into an interactive graphical
+                            application. The aim is to create a graphic animation of a simple object, through the estimation
+                            and classification of hand movements recorded in a video sequence.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="../img/iasa.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Artificial Intelligence for Autonomous Systems</h3>
+                        <p class="project-description">
+                            An autonomous complex system whose agent navigates in a space of discrete dimensions and
+                            collects
+                            targets and avoids obstacles, applying knowledge from the areas of artificial intelligence
+                            and software
+                            engineering.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Artificial Intelligence</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Java</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/alymed/Artificial-Intelligence-for-Autonomous-Systems"
+                                class="project-link secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="project-status status-completed">Completed</div>
+                    <div class="project-image">
+                        <img src="../img/smells like summer.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">A Short Movie: Smells Like Summer</h3>
+                        <p class="project-description">
+                            As the only creatures with free will, we have the power to choose our actions, the power to
+                            choose how we live our lives.
+                            In this way, within the visible are stories never shared, forgotten stories, unique stories,
+                            never experienced, irrelevant
+                            stories, remarkable ones, stories that left scars, stories that managed to penetrate our
+                            lives…
+                            Who are we, really? What is our life made of? What connects us? This short film reflects on
+                            the different ways of looking
+                            at life and living it, on our differences and equalities, and on our power to connect,
+                            regardless of the individual panorama.
+                            This short film is about summer.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Filmmaking</span>
+                            <span class="tech-tag">Post-Production</span>
+                            <span class="tech-tag">Creative Thinking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://youtu.be/9Ff7fkICEgw" class="project-link primary">
+                                <i class="fab fa-youtube"></i>
+                                Watch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="project-status status-completed">Completed</div>
+                    <div class="project-image">
+                        <img src="../img/true summer lover.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">A Short Movie: True Summer Lover</h3>
+                        <p class="project-description">
+                            A 20-minute documentary exploring local artisan traditions, featuring interviews,
+                            drone footage, and original music composition. Won Best Student Film at local festival.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Filmmaking</span>
+                            <span class="tech-tag">Post-Production</span>
+                            <span class="tech-tag">Creative Thinking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://youtu.be/qEx1spwgHJo" class="project-link primary">
+                                <i class="fab fa-youtube"></i>
+                                Watch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="project-image">
+                        <img src="../img/true summer lover.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">A Short Movie: The Last Summer</h3>
+                        <p class="project-description">
+                            A 20-minute documentary exploring local artisan traditions, featuring interviews, 
+                            drone footage, and original music composition. Won Best Student Film at local festival.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Filmmaking</span>
+                            <span class="tech-tag">Post-Production</span>
+                            <span class="tech-tag">Creative Thinking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link primary">
+                                <i class="fab fa-youtube"></i>
+                                Watch
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 data-aos="fade-up" data-aos-duration="1000">Contact Me</h2>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong><br>
+                            analuisamedeiros14@gmail.com
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +351 938 426 642
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Location</strong><br>
+                            Lisbon, Portugal
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+    <form id="contactForm" action="https://formspree.io/f/mnnzzqgo" method="POST">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <div class="error-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <div class="error-message"></div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+                <div class="error-message"></div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" name="subject" required>
+            <div class="error-message"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message * <span id="charCount">0</span>/1000</label>
+            <textarea id="message" name="message" required minlength="10" maxlength="1000"></textarea>
+            <div class="error-message"></div>
+        </div>
+
+        <button type="submit" class="submit-btn" id="submitBtn">
+            <span class="btn-text">Send Message</span>
+            <span class="loading-spinner" style="display: none;"></span>
+        </button>
+
+        <div class="status-message" id="statusMessage" style="display: none;"></div>
+    </form>
+</div>
+    </section>
+
+    <footer class="footer">
+        <p class="copyright">&copy; Ana Medeiros 2025. All rights conserved</p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({ offset: 0 });
+
+    const form = document.getElementById('contactForm');
+    const charCount = document.getElementById('charCount');
+    const messageTextarea = document.getElementById('message');
+    const submitBtn = document.getElementById('submitBtn');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const spinner = submitBtn.querySelector('.loading-spinner');
+    const statusMessage = document.getElementById('statusMessage');
+
+    // Atualiza contador de caracteres
+    messageTextarea.addEventListener('input', function () {
+        const length = this.value.length;
+        charCount.textContent = length;
+
+        if (length > 950) {
+            charCount.style.color = '#e74c3c';
+        } else if (length > 800) {
+            charCount.style.color = '#f39c12';
+        } else {
+            charCount.style.color = '#666';
+        }
+    });
+
+    function validateField(field) {
+        const value = field.value.trim();
+        const name = field.name;
+        let isValid = true;
+        let errorMessage = '';
+        const errorDiv = field.parentNode.querySelector('.error-message');
+
+        field.classList.remove('error', 'success');
+        errorDiv.style.display = 'none';
+        errorDiv.textContent = '';
+
+        switch (name) {
+            case 'firstName':
+            case 'lastName':
+                if (!value) {
+                    errorMessage = `Please enter your ${name === 'firstName' ? 'first' : 'last'} name`;
+                    isValid = false;
+                } else if (value.length < 2) {
+                    errorMessage = 'Name must be at least 2 characters';
+                    isValid = false;
+                }
+                break;
+            case 'email':
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!value) {
+                    errorMessage = 'Please enter your email address';
+                    isValid = false;
+                } else if (!emailRegex.test(value)) {
+                    errorMessage = 'Please enter a valid email address';
+                    isValid = false;
+                }
+                break;
+            case 'phone':
+                if (value) {
+                    const phoneRegex = /^[\+]?[1-9][\d]{0,15}$/;
+                    if (!phoneRegex.test(value.replace(/[\s\-\(\)]/g, ''))) {
+                        errorMessage = 'Please enter a valid phone number';
+                        isValid = false;
+                    }
+                }
+                break;
+            case 'subject':
+                if (!value) {
+                    errorMessage = 'Please enter a subject';
+                    isValid = false;
+                }
+                break;
+            case 'message':
+                if (!value) {
+                    errorMessage = 'Please enter your message';
+                    isValid = false;
+                } else if (value.length < 10) {
+                    errorMessage = 'Message must be at least 10 characters';
+                    isValid = false;
+                }
+                break;
+        }
+
+        if (isValid) {
+            field.classList.add('success');
+        } else {
+            field.classList.add('error');
+            errorDiv.textContent = errorMessage;
+            errorDiv.style.display = 'block';
+        }
+
+        return isValid;
+    }
+
+    // Validação em tempo real
+    const formFields = form.querySelectorAll('input, textarea');
+    formFields.forEach(field => {
+        field.addEventListener('blur', () => validateField(field));
+        field.addEventListener('input', () => {
+            if (field.classList.contains('error')) {
+                validateField(field);
+            }
+        });
+    });
+
+    // Submissão do formulário
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        let isValid = true;
+        formFields.forEach(field => {
+            if (!validateField(field)) {
+                isValid = false;
+            }
+        });
+
+        if (!isValid) {
+            const firstError = form.querySelector('.error');
+            if (firstError) {
+                firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                firstError.focus();
+            }
+            return;
+        }
+
+        submitBtn.disabled = true;
+        btnText.style.display = 'none';
+        spinner.style.display = 'inline-block';
+
+        try {
+            const formData = new FormData(form);
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                statusMessage.className = 'status-message success';
+                statusMessage.textContent = 'Thank you! Your message has been sent.';
+                form.reset();
+                charCount.textContent = '0';
+            } else {
+                throw new Error('Submission failed');
+            }
+        } catch {
+            statusMessage.className = 'status-message error';
+            statusMessage.textContent = 'There was an error sending your message.';
+        } finally {
+            statusMessage.style.display = 'block';
+            btnText.style.display = 'inline';
+            spinner.style.display = 'none';
+            submitBtn.disabled = false;
+
+            setTimeout(() => {
+                statusMessage.style.display = 'none';
+            }, 5000);
+        }
+    });
+
+    // Rolagem suave para links internos
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+
+</html>
